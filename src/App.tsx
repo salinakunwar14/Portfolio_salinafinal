@@ -225,7 +225,7 @@ function App() {
         />
       </div>
 
-      <header className="sticky top-0 z-40 border-b border-white/10 bg-slate-950/70 backdrop-blur-xl">
+      <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
           <a href="#home" className="text-lg font-semibold tracking-wide text-white">
             portfolio<span className="text-fuchsia-400">.</span>
@@ -269,7 +269,7 @@ function App() {
         )}
       </header>
 
-      <main className="mx-auto max-w-6xl space-y-24 px-4 pb-16 pt-12 sm:px-6 lg:px-8 lg:space-y-32">
+      <main className="mx-auto max-w-6xl space-y-24 px-4 pb-16 pt-24 sm:px-6 lg:px-8 lg:space-y-32">
         <motion.section id="home" {...fadeInUp} className="relative">
           <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-2xl shadow-fuchsia-950/30 backdrop-blur-xl sm:p-12">
             <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
